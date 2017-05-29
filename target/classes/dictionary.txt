@@ -1,0 +1,8 @@
+eleanor
+music
+playlist
+calendar
+bot
+play
+command
+commands
