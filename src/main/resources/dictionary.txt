@@ -1,8 +1,6 @@
 eleanor
-music
-playlist
-calendar
-bot
-play
-command
-commands
+help
+play music
+what is the time
+how late is it
+list commands

@@ -27,8 +27,6 @@ import javax.swing.event.DocumentEvent;
 import javax.swing.event.DocumentListener;
 
 public class View extends JFrame implements ActionListener{
-	private static final String DICTIONARYFILE = "src/main/resources/dictionary.txt";
-	private static final String COMMANDSFILE = "src/main/resources/commands.txt";
 	private JScrollPane logScrollPane;
 	private JTextArea logTextArea;
 	private JScrollPane dictionaryScrollPane;
@@ -45,8 +43,7 @@ public class View extends JFrame implements ActionListener{
 	private JButton commandsWriteButton;
 	private JTextField latestSpeechRecognition;
 	public View(){
-		super("Personal Assistent");
-		
+		super("Personal Assistant");
 		
 		logPanel = new JPanel();				
 		logPanel.setLayout(new BoxLayout(logPanel, BoxLayout.PAGE_AXIS));
@@ -79,7 +76,7 @@ public class View extends JFrame implements ActionListener{
         dictionaryTextArea.setWrapStyleWord(true);
         dictionaryTextArea.setEditable(true);
 		dictionaryScrollPane = new JScrollPane(dictionaryTextArea);
-		readFile(DICTIONARYFILE, dictionaryTextArea);
+		readFile(Main.DICTIONARYFILE, dictionaryTextArea);
 		
 		commandsPanel = new JPanel();
 		commandsPanel.setLayout(new BoxLayout(commandsPanel, BoxLayout.PAGE_AXIS));
@@ -97,7 +94,7 @@ public class View extends JFrame implements ActionListener{
         commandsTextArea.setWrapStyleWord(true);
         commandsTextArea.setEditable(true);
         commandsScrollPane = new JScrollPane(commandsTextArea);
-		readFile(COMMANDSFILE, commandsTextArea);
+		readFile(Main.COMMANDSFILE, commandsTextArea);
 		
 		tabbedPane = new JTabbedPane();
 		tabbedPane.add("Log", logPanel);
@@ -158,13 +155,13 @@ public class View extends JFrame implements ActionListener{
 	
 	public void actionPerformed(ActionEvent e) {
 		if(e.getSource()==dictionaryWriteButton){
-			writeFile(DICTIONARYFILE, dictionaryTextArea);
+			writeFile(Main.DICTIONARYFILE, dictionaryTextArea);
 		}else if(e.getSource()==dictionaryReadButton){
-			readFile(DICTIONARYFILE, dictionaryTextArea);
+			readFile(Main.DICTIONARYFILE, dictionaryTextArea);
 		}else if(e.getSource()==commandsWriteButton){
-			writeFile(COMMANDSFILE, commandsTextArea);
+			writeFile(Main.COMMANDSFILE, commandsTextArea);
 		}else if(e.getSource()==commandsReadButton){
-			readFile(COMMANDSFILE, commandsTextArea);
+			readFile(Main.COMMANDSFILE, commandsTextArea);
 		}
 	}
 }
