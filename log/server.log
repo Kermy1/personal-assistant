@@ -8338,3 +8338,73 @@
 2017-05-30 14:22:29,669 [Thread-3] INFO  marytts.PronunciationModel Module shut down.
 2017-05-30 14:22:29,669 [Thread-3] INFO  marytts.OpenNLPPosTagger Module shut down.
 2017-05-30 14:22:29,671 [Thread-3] INFO  marytts.main Shutdown complete.
+2017-05-30 19:03:52,629 [main] INFO  marytts.main Mary starting up...
+2017-05-30 19:03:52,632 [main] INFO  marytts.main Specification version 5.2
+2017-05-30 19:03:52,632 [main] INFO  marytts.main Implementation version unknown
+2017-05-30 19:03:52,632 [main] INFO  marytts.main Running on a Java 1.8.0_131 implementation by Oracle Corporation, on a Windows 7 platform (amd64, 6.1)
+2017-05-30 19:03:52,738 [main] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.Synthesis'
+2017-05-30 19:03:52,741 [main] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.TextToMaryXML'
+2017-05-30 19:03:52,742 [main] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.SableParser'
+2017-05-30 19:03:52,744 [main] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.SSMLParser'
+2017-05-30 19:03:52,746 [main] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.APMLParser'
+2017-05-30 19:03:52,747 [main] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.EmotionmlParser'
+2017-05-30 19:03:52,747 [main] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.JTokeniser'
+2017-05-30 19:03:52,748 [main] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.DummyTokens2Words'
+2017-05-30 19:03:52,749 [main] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.ProsodyGeneric'
+2017-05-30 19:03:52,752 [main] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.PronunciationModel'
+2017-05-30 19:03:52,753 [main] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.TargetFeatureLister'
+2017-05-30 19:03:52,753 [main] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.HalfPhoneTargetFeatureLister'
+2017-05-30 19:03:52,754 [main] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.AcousticModeller'
+2017-05-30 19:03:52,755 [main] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.RealisedAcoustparamsExtractor'
+2017-05-30 19:03:52,755 [main] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.RealisedDurationsExtractor'
+2017-05-30 19:03:52,756 [main] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.HTSEngine'
+2017-05-30 19:03:52,757 [main] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.PraatTextGridGenerator'
+2017-05-30 19:03:52,758 [main] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.language.en.JTokeniser'
+2017-05-30 19:03:52,759 [main] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.language.en.Preprocess'
+2017-05-30 19:03:52,925 [main] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.JPhonemiser(en_US.)'
+2017-05-30 19:03:52,926 [main] INFO  marytts.JPhonemiser User dictionary '.\user-dictionaries\userdict-en_US.txt' for locale 'en_US' does not exist. Ignoring.
+2017-05-30 19:03:52,986 [main] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.JPhonemiser(en_GB.)'
+2017-05-30 19:03:52,986 [main] INFO  marytts.JPhonemiser User dictionary '.\user-dictionaries\userdict-en_GB.txt' for locale 'en_GB' does not exist. Ignoring.
+2017-05-30 19:03:53,027 [main] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.language.en.Prosody'
+2017-05-30 19:03:53,028 [main] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.SimplePhoneme2AP(en_US)'
+2017-05-30 19:03:53,029 [main] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.language.en.PronunciationModel'
+2017-05-30 19:03:53,029 [main] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.OpenNLPPosTagger(en,en.pos)'
+2017-05-30 19:03:53,034 [main] INFO  marytts.UnitSelectionSynthesizer started.
+2017-05-30 19:03:53,036 [main] INFO  marytts.TargetFeatureLister Module started (ACOUSTPARAMS->TARGETFEATURES, locale null).
+2017-05-30 19:03:53,036 [main] INFO  marytts.HTSEngine Module started (TARGETFEATURES->AUDIO, locale null).
+2017-05-30 19:03:53,055 [main] INFO  marytts.HMMData Loading Tree Set in CARTs:
+2017-05-30 19:03:53,121 [main] INFO  marytts.HMMData Loading GV Model Set:
+2017-05-30 19:03:53,248 [main] INFO  marytts.Voice Registering voice `cmu-slt-hsmm': female, locale en_US
+2017-05-30 19:03:53,248 [main] INFO  marytts.Voice New default voice for locale en_US: cmu-slt-hsmm (desire 0)
+2017-05-30 19:03:53,252 [main] INFO  marytts.HMMData Loading Tree Set in CARTs:
+2017-05-30 19:03:53,286 [main] INFO  marytts.HMMData Loading GV Model Set:
+2017-05-30 19:03:53,386 [main] INFO  marytts.Voice Registering voice `dfki-poppy-hsmm': female, locale en_GB
+2017-05-30 19:03:53,386 [main] INFO  marytts.Voice New default voice for locale en_GB: dfki-poppy-hsmm (desire 0)
+2017-05-30 19:03:53,389 [main] INFO  marytts.HMMData Loading Tree Set in CARTs:
+2017-05-30 19:03:53,446 [main] INFO  marytts.HMMData Loading GV Model Set:
+2017-05-30 19:03:53,581 [main] INFO  marytts.Voice Registering voice `dfki-prudence-hsmm': female, locale en_GB
+2017-05-30 19:03:53,584 [main] INFO  marytts.HMMData Loading Tree Set in CARTs:
+2017-05-30 19:03:53,637 [main] INFO  marytts.HMMData Loading GV Model Set:
+2017-05-30 19:03:53,735 [main] INFO  marytts.Voice Registering voice `dfki-spike-hsmm': male, locale en_GB
+2017-05-30 19:03:53,735 [main] INFO  marytts.HMMSynthesizer started.
+2017-05-30 19:03:53,735 [main] INFO  marytts.Synthesis Module started (ACOUSTPARAMS->AUDIO, locale null).
+2017-05-30 19:03:53,736 [main] INFO  marytts.HMMSynthesizer Starting power-on self test.
+2017-05-30 19:03:53,737 [main] INFO  marytts.HMMSynthesizer Power-on self test complete.
+2017-05-30 19:03:53,738 [main] INFO  marytts.TextToMaryXML Module started (TEXT->RAWMARYXML, locale null).
+2017-05-30 19:03:53,738 [main] INFO  marytts.TextToMaryXML Starting power-on self test.
+2017-05-30 19:03:53,743 [main] WARN  marytts.TextToMaryXML Locale is null, overriding with en_US
+2017-05-30 19:03:53,744 [main] WARN  marytts.TextToMaryXML Locale is null, overriding with en_US
+2017-05-30 19:03:53,744 [main] INFO  marytts.TextToMaryXML Power-on self test complete.
+2017-05-30 19:03:53,933 [main] INFO  marytts.SableParser Module started (SABLE->RAWMARYXML, locale null).
+2017-05-30 19:03:53,933 [main] INFO  marytts.SableParser Starting power-on self test.
+2017-05-30 19:03:53,933 [main] INFO  marytts.SableParser Power-on self test complete.
+2017-05-30 19:03:53,990 [main] INFO  marytts.SSMLParser Module started (SSML->RAWMARYXML, locale null).
+2017-05-30 19:03:53,990 [main] INFO  marytts.SSMLParser Starting power-on self test.
+2017-05-30 19:03:53,990 [main] INFO  marytts.SSMLParser Power-on self test complete.
+2017-05-30 19:03:54,042 [main] INFO  marytts.APMLParser Module started (APML->RAWMARYXML, locale null).
+2017-05-30 19:03:54,042 [main] INFO  marytts.APMLParser Starting power-on self test.
+2017-05-30 19:03:54,042 [main] INFO  marytts.APMLParser Power-on self test complete.
+2017-05-30 19:03:54,077 [main] INFO  marytts.EmotionmlParser Module started (EMOTIONML->RAWMARYXML, locale null).
+2017-05-30 19:03:54,077 [main] INFO  marytts.EmotionmlParser Starting power-on self test.
+2017-05-30 19:03:54,077 [main] INFO  marytts.EmotionmlParser Power-on self test complete.
+2017-05-30 19:03:54,077 [main] INFO  marytts.JTokeniser Module started (RAWMARYXML->TOKENS, locale null).
