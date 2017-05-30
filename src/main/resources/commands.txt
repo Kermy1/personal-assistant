@@ -1,3 +1,5 @@
-bot
+help
+what is the time
+how late is it
 list commands
 play music
